@@ -5,7 +5,7 @@ function App() {
 
   return (
       // this is the title of the page
-      <Title title={"CS3733-D25 Team 23: Cooking"}/>
+      <Title title={"CS3733-D25 Team 23: Cooking and Listening to Music Albums"}/>
 
   )
 }
