@@ -1,3 +1,7 @@
+import List2 from "./list2.tsx"
+import Table2 from "./table2.tsx"
+import Form2 from "./form2.tsx"
+
 const Hobby2 = ()=> {
     return(
         <>
@@ -18,93 +22,9 @@ const Hobby2 = ()=> {
                 albums:
             </p>
 
-            <ol>
-                <li>Sling by Clairo (album cover above)</li>
-                <li>Imaginal Disk by Magdalena Bay</li>
-                <li>Homogenic by Björk</li>
-                <li>God Don't Make Mistakes by Conway the Machine</li>
-                <li>Dragon New Warm Mountain I Believe In You by Big Thief</li>
-            </ol>
-
-            <table className="collapse">
-                <caption>Favorite New Albums 2024</caption>
-                <tr>
-                    <th>Album Name</th>
-                    <th>Artist</th>
-                    <th>Favorite Song</th>
-                </tr>
-                <tr>
-                    <td>Imaginal Disk</td>
-                    <td>Magdalena Bay</td>
-                    <td>Cry for Me</td>
-                </tr>
-                <tr>
-                    <td>Charm</td>
-                    <td>Clairo</td>
-                    <td>Terrapin</td>
-                </tr>
-                <tr>
-                    <td>Bright Future</td>
-                    <td>Adrianne Lenker</td>
-                    <td>Free Treasure</td>
-                </tr>
-                <tr>
-                    <td>Heavy Metal</td>
-                    <td>Cameron Winter</td>
-                    <td>Cancer of the Skull</td>
-                </tr>
-                <tr>
-                    <td>SCRAPYARD</td>
-                    <td>Quadeca</td>
-                    <td>PRETTY PRIVILEGE</td>
-                </tr>
-            </table>
-
-            <h2>Recommendations</h2>
-            <form>
-                <label htmlFor="Recommendation">Enter recommendation (song, album, or artist):</label>
-                <input type="text" id="Recommendation"/>
-                <br/><br/>
-                <label htmlFor="Genre">Enter what genre the recommendation is under:</label>
-                <input type="text" id="Genre"/>
-                <br/><br/>
-                <label htmlFor="Popular">More information:</label>
-                <br/>
-                <input type="checkbox" id="Popular"/>
-                <label htmlFor="Popular">Popular?</label>
-                <br/>
-                <input type="checkbox" id="Favorite"/>
-                <label htmlFor="Favorite">Favorite?</label>
-                <br/>
-                <input type="checkbox" id="highlyRated"/>
-                <label htmlFor="highlyRated">Highly Rated?</label>
-                <br/><br/>
-                <label htmlFor="Song">Kind of recommendation:</label>
-                <br/>
-                <input type="radio" id="Song" name="recommendationType"/>
-                <label htmlFor="Song">Song?</label>
-                <br/>
-                <input type="radio" id="Album" name="recommendationType"/>
-                <label htmlFor="Album">Album?</label>
-                <br/>
-                <input type="radio" id="Artist" name="recommendationType"/>
-                <label htmlFor="Artist">Artist?</label>
-                <br/><br/>
-                <label htmlFor="Comments">Comments:</label>
-                <br/>
-                <textarea id="Comments"></textarea>
-                <br/><br/>
-                <label htmlFor="Rating">Your rating of the recommendation:</label>
-                <select name="Rating" id="Rating">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                </select>
-                <br/><br/>
-                <input type="submit" value="Submit" id="submitButton"/>
-            </form>
+            <List2 />
+            <Table2 />
+            <Form2 />
         </>
     )
 }
