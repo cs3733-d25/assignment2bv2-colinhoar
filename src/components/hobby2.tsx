@@ -1,15 +1,15 @@
 import List2 from "./list2.tsx"
 import Table2 from "./table2.tsx"
 import Form2 from "./form2.tsx"
+import sling from "../images/sling.png";
 
 const Hobby2 = ()=> {
     return(
         <>
             <h1>Colin Hoar - Listening to Music Albums</h1>
-            <div id="Sling">
-                <img src="../assets/sling.png" width="300" alt="Sling album cover photo"/>
-            </div>
+            <img src={sling} alt="Sling album cover photo" />
             <p>
+
                 Listening to albums is a really great hobby that I have only really picked
                 up in recent years. In 2022, I wanted to try and expand my music taste by
                 listening to an album a day. I failed pretty bad, with only having listened

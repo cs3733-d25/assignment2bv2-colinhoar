@@ -1,11 +1,14 @@
 import List1 from "./list1.tsx";
 import Table1 from "./table1.tsx";
 import Form1 from "./form1.tsx";
+import food1 from "../images/food1.jpg"
 
 const Hobby1 = () => {
     return(
         <>
             <h1>Krish Patel - Cooking </h1>
+
+            <img src={food1} alt="Image of food" />
 
             <p>
                 In my free time I love to cook. Being a Vegetarian, I particularly enjoy the art of cooking.
@@ -15,6 +18,8 @@ const Hobby1 = () => {
                 also enjoy having my friends try the dishes and provide feedback on how it can be better. I
                 have linked three of my favorite recipes for you to try! Happy Cooking!
             </p>
+
+
 
             <List1 />
             <Table1 />
