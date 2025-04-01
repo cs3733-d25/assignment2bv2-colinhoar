@@ -12,7 +12,6 @@ function App() {
 
         <Intro name1={"Krish Patel"} name2={"Colin Hoar"}/>
 
-
         <Hobby1 />
         <Hobby2 />
 
