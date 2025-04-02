@@ -1,3 +1,5 @@
+import './list.css'
+
 const List2 = ()=>{
     return (
         <>

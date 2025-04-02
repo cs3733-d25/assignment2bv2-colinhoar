@@ -1,0 +1,28 @@
+body {
+    color: saddlebrown;
+    background-color: rosybrown;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Baskerville Old Face", sans-serif;
+    color: peachpuff;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.collapse {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.collapse, .collapse th, .collapse td {
+    border: 2px solid darkslategray;
+}
+
+h1 {
+    text-align: center;
+}
